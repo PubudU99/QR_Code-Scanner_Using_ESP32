@@ -1,4 +1,4 @@
-# QR_Code-Item-Scanner_Using_ESP32
+# QR_Code_Item_Scanner_Using_ESP32
 --QR code item scanner using an ESP32 microcontroller--
 ## Overview
 This repository contains an implementation of a QR code item scanner using an ESP32 microcontroller. The project is designed for a supermarket scenario where items with QR codes are scanned, and the total cost of the selected items is calculated. The QR code scanner is interfaced with an ESP32 microcontroller, and the scanned data is processed to update item counts and total cost in real-time.

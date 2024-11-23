@@ -164,8 +164,7 @@ void setup()
 
   Serial.println("HTTP server started");
 
-  // Serial.println("Use this URL to connect: http://esp32.local/");
-  Serial.println("Or use this IP address: " + WiFi.localIP().toString());
+  Serial.println("Use this URL to connect: " + WiFi.localIP().toString());
 
   // Start QRCode task
   xTaskCreate(onQrCodeTask, "onQrCode", 4 * 1024, NULL, 4, NULL);
